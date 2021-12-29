@@ -1,0 +1,58 @@
+enter item number: 
+1
+enter item number: 
+2
+enter item number: 
+3
+enter item number: 
+4
+enter item number: 
+5
+items are: index 0= 1
+items are: index 1= 2
+items are: index 2= 3
+items are: index 3= 4
+items are: index 4= 5
+sum of the items are: 15
+avg of the items are: 3.0
+
+enter name: 
+fawatim
+enter name: 
+elyana
+enter name: 
+amira
+enter name: 
+najwa
+enter name: 
+ain
+name are: index 0= fawatim
+name are: index 1= elyana
+name are: index 2= amira
+name are: index 3= najwa
+name are: index 4= ain
+
+items are: index 0= 1
+items are: index 1= 12
+items are: index 2= 5
+items are: index 3= 4
+items are: index 4= 7
+
+Enter five names
+fawatim
+elyana
+amira
+najwa
+ain
+Customer name in reverse: 
+ain najwa amira elyana fawatim
+
+Enter five five items
+1
+2
+3
+4
+5
+The sum of the numbers = 15
+The numbers in reverse order are: 
+5 4 3 2 1
