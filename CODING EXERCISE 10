@@ -1,0 +1,37 @@
+package exercise;
+import java.util.Scanner;
+public class Largestin2D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int matrix[][] = new int[3][3];
+		int largest;
+		
+		System.out.println("Enter numbers");
+		
+		for (int r = 0; r < matrix.length; r++){
+			for (int c = 0; c < matrix[r].length; c++) 
+				matrix[r][c]=sc.nextInt();}
+		
+		System.out.println();
+		
+		for (int r = 0; r < matrix.length; r++){
+			for (int c = 0; c < matrix[r].length; c++) 
+				System.out.println(matrix[r][c]);
+			System.out.println();
+		}
+		
+		for (int r = 0; r < matrix.length; r++){
+		  largest = matrix[r][0];
+		  for (int c = 1; c < matrix[r].length; c++)
+			  //c=1 because largest already at column o for every row
+			if (largest < matrix[r][c])
+			    largest = matrix[r][c];
+		  System.out.println("The largest element of row" + (r+1) + "=" + largest);}
+
+
+	}
+
+}
