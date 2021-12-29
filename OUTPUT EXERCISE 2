@@ -1,0 +1,30 @@
+Enter sales
+1
+2
+3
+4
+5
+6
+7
+8
+9
+i equal to 0; y equal to 0
+Value for sales is 1
+i equal to 0; y equal to 1
+Value for sales is 2
+i equal to 0; y equal to 2
+Value for sales is 3
+i equal to 1; y equal to 0
+Value for sales is 4
+i equal to 1; y equal to 1
+Value for sales is 5
+i equal to 1; y equal to 2
+Value for sales is 6
+i equal to 2; y equal to 0
+Value for sales is 7
+i equal to 2; y equal to 1
+Value for sales is 8
+i equal to 2; y equal to 2
+Value for sales is 9
+Sum is 45.0
+Average is 5.0
