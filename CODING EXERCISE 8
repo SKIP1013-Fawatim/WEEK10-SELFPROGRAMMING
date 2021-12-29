@@ -1,15 +1,44 @@
-10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
-Enter 10 number
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 
-sum of sales is 45.0
-avg of sales is 4.5
+package exercise;
+import java.util.Scanner;
+public class Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		double[] sales = new double[10];
+		int index;
+		double sum=0, average=0;
+
+
+		for (index = 0; index < sales.length;index++)
+		    sales[index] = 10.00;
+		
+		for(index = 0; index < sales.length;index++)
+			System.out.print(sales[index] + " ");
+		
+		System.out.println();
+		System.out.println("Enter 10 number");
+		
+		for (index = 0; index < sales.length;index++) {
+			  sales[index] = sc.nextDouble();
+			  sum = sum + sales[index];}
+		
+		for(index = 0; index < sales.length;index++)
+			System.out.print(sales[index] + " ");
+
+		if (sales.length != 0)
+		    average = sum / sales.length;
+		else
+		    average = 0.0;
+		
+		System.out.println();
+		System.out.println("sum of sales is "+sum);
+		System.out.println("avg of sales is "+average);
+		
+
+
+	}
+
+}
+
