@@ -1,0 +1,24 @@
+package exercise;
+import java.util.Arrays;
+import java.util.Scanner;
+public class LinearSearch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int search = 30;
+		int[] arrays = new int[] {10,40,80,90,60,70,50,30,80,60};
+		
+		for(int i=0;i<arrays.length;i++) {
+			if(search==arrays[i])
+				System.out.println("search: "+search+" is found at index "+i);
+		}
+		System.out.println();
+		System.out.println("Original arrays: "+Arrays.toString(arrays));
+		Arrays.sort(arrays);
+		System.out.println("Sort arrays: "+Arrays.toString(arrays));
+
+	}
+
+}
